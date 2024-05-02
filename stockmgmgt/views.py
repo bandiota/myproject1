@@ -253,7 +253,7 @@ def add_category(request):
     if form.is_valid():
         form.save()
         messages.success(request, "Category created successfully!")
-        return redirect ('list_items')
+        return redirect ('view_category')
     context = {
             'form' : form,
             'title' : 'Add Category'
