@@ -11,6 +11,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://myproject1-production.up.railway.app'
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
