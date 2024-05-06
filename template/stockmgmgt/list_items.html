@@ -23,6 +23,7 @@
               <a href="{% url 'view_category' %}"><div class="btn btn-primary mybutton">View Category</div></a><br><br>
               <a href="{% url 'list_history' %}"><div class="btn btn-primary mybutton">View History</div></a><br><br>
               {% else %}
+              <a href="{% url 'add_items' %}"><div class="btn btn-primary mybutton">Add Items</div></a><br><br>
               <a href="{% url 'view_category' %}"><div class="btn btn-primary mybutton">View Category</div></a><br><br>
               <a href="{% url 'list_history' %}"><div class="btn btn-primary mybutton">View History</div></a><br><br>
               {% endif %}
